@@ -44,33 +44,32 @@
           </tr>
         </table>
         <li>이 후 원하는 테이블을 누르면 preparestatement에 select문을 담아 쿼리 수행 + 메타데이터를 담아 resultset.next()를 통해/li>
-        <li>데이터를 끌고옴, 이후 Swing에 정의한 테이블 모델에 덮어 씌워서 보여줌</li>
+        <li>데이터를 끌고옴, 이후 Swing에 정의한 테이블 모델에 덮어 씌워서 보여줌, 계정접속 후에는 쿼리문 입력후 수행도 가능.(단축키 ctrl+enter)</li>
       </ul>
     </td>
   </tr>
   <tr>
     <td>
-    <img src="https://blogfiles.pstatic.net/MjAxOTA1MDdfMTAz/MDAxNTU3MjA0MjExMTU0.J1VdMLUXK7_cHZ8GoewasLqA537RdOzVjLcSLhszzggg.MgHbPQXdWDZKP0gxXtXNfQKTrCAmiJaQ5OzQ3RP0LzUg.PNG.phh_92/game_main.png?type=w2" width="250px"/>
+    <img src="https://user-images.githubusercontent.com/47166170/57373746-0e64c000-71d4-11e9-9d9d-31aa436c8e95.PNG" width="250px"/>
     </td>
     <td>
-      ▶ Game Page<br>
+      ▶ 단축키를 활용한 엑셀 저장<br>
       <ul>
-        <li>서브권이 결정되고 나서의 화면</li>
-        <li>붉은색 Stick 은 Com, 파란색 Stick 은 Player 이다.</li>
-        <li>Com 의 Stick 은 setInterval() Method 를 통해 일정한 속도로 좌우로 움직임.</li>
-        <li>각 Stick 에는 충돌 Check Method 가 적용되어있는 Sensor 들로 감싸져 있음</li>
-        <li>각 Puck 은 이동시 Stage 의 벽과 Puck 에 충돌시 속도가 조금씩 줄어듦</li>
-        <li>Puck 뒤 Goal Line 에 또한 충돌 Check 가 적용된 Sensor 가 있어서 충돌시 Goal 처리 및 Score 변경됨</li>
+        <li>단축키를 지정해 명령 수행 가능.</li>
+        <li>그중 Ctrl+S로 엑셀파일로 빼내 원하는 위치에 저장이 가능(엑셀저장은 poi.jar 라이브러리를 가져와서 수행).</li>
+        <li>HSSFWorkbook 객체 생성후 ResultSetMetaData를 통해 DB테이블의 컬럼조사, 자료들을 가져온다.</li>
+        <li>ResultSet객체로 DB의 줄 조사 이후 각 줄마다 Swing에서 사전에 정의한 테이블에 덮어 씌움</li>
+        <li>이후 저장경로를 생성하여 File객체를 만들어 해당파일을 엑셀로 저장</li>
         <table>
           <tr>
-            <td colspan="2">Goal 처리 이후 Score 변경 처리 화면</td>
+            <td colspan="2">저장 처리가 된 이후 나오는 파일</td>
           </tr>
           <tr>
             <td>
-            <img src="https://blogfiles.pstatic.net/MjAxOTA1MDdfNjMg/MDAxNTU3MjA0MzIyMTUz.C7PsSgY83hRLyoJNnIoM65yz_4eLkZDwVFiInLft68Ig.LpP4bbai4nRF1ohsNC9hveK8Gk-iXtRp3CXJFVTY_cEg.PNG.phh_92/Goal.png?type=w2" width="250px"/> 
+            <img src="https://user-images.githubusercontent.com/47166170/57374152-2c7ef000-71d5-11e9-9cd5-929792cf0119.PNG" width="250px"/> 
             </td>
             <td>
-              <img src="https://blogfiles.pstatic.net/MjAxOTA1MDdfMjA2/MDAxNTU3MjA0MzIyNDE1.aA54p_XHn0uEOcoyRq7W1vATWhX4FZc0da-pKmy1evQg.Nx-kMfIMtE5Swk_RYfPxP-ijBQ3y1ZsTjN-CgeNu-KEg.PNG.phh_92/socre.png?type=w2" width="250px"/>
+              <img src="https://user-images.githubusercontent.com/47166170/57374166-36085800-71d5-11e9-8f87-b7fe7a6f85d0.PNG" width="250px"/>
             </td>
           </tr>
         </table>
