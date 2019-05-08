@@ -12,13 +12,10 @@
   </tr>
   <tr>
     <td>
-    <img src="https://user-images.githubusercontent.com/47166170/57374572-28070700-71d6-11e9-8335-12cf55df9a4f.PNG" width="250px"/>
+    <img src="https://user-images.githubusercontent.com/47166170/57341905-28bc8080-7177-11e9-975f-64945a9d6755.PNG" width="250px"/>
     </td>
     <td>
-      ▶ 프로그램 최초 실행 메인화면<br>
-      <ul>
-        <li>JDBC를 이용해 Connection을 얻어온 후 파일의 로그인정보를 눌러 오라클 계정접속 확인</li>
-      </ul>
+      ▶ 프로그램 구조<br>
     </td>
   </tr>
   <tr>
