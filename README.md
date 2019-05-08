@@ -12,39 +12,39 @@
   </tr>
   <tr>
     <td>
-    <img src="https://blogfiles.pstatic.net/MjAxOTA1MDdfMjcw/MDAxNTU3MjAzMjMzNTIz.ZvnKTGgOzd1KIudYt--pfKkR3-U1DQOptrdE9jT2xX4g.bPEXwqcROZ5gF5CBwALsjZIiaroFv4RLbl1-yhwF6mMg.PNG.phh_92/airhockey_startPage.png?type=w2" width="250px"/>
+    <img src="https://user-images.githubusercontent.com/47166170/57373230-d90ba280-71d2-11e9-8a9a-80f43b0d92a5.PNG" width="250px"/>
     </td>
     <td>
-      ▶ AirHockey Main Page<br>
+      ▶ 프로그램 최초 실행 메인화면<br>
       <ul>
-        <li>Start Button Click 시 Game Main Page 로 이동!</li>
+        <li>JDBC를 이용해 Connection을 얻어온 후 파일의 로그인정보를 눌러 오라클 계정접속 확인</li>
       </ul>
     </td>
   </tr>
   <tr>
     <td>
-    <img src="https://blogfiles.pstatic.net/MjAxOTA1MDdfODkg/MDAxNTU3MjAzMjMzMDA2.cosE2Y1wqiRG4Hi37uRoTzd8CoECTQRdOH4zCxBZXvcg.g4WxPlb2rx4cX-HDbMsKpWV5Nqi4kVDFwknwc9xML_Ug.PNG.phh_92/airhockey_gameMain.png?type=w2" width="250px"/>
+    <img src="https://user-images.githubusercontent.com/47166170/57373270-f2145380-71d2-11e9-8666-97fea778726b.PNG" width="250px"/>
     </td>
     <td>
-      ▶ Game Main Page<br>
+      ▶ Login Page<br>
       <ul>
-        <li>Game 의 서브권을 결정함</li>
-        <li>select Button Click 시 내장객체 Math에 의해 추출된 난수값 (0, 1) 에 의해 서브권이 결정됨 </li>
+        <li>오라클 내에 등록되어있는 계정들을 확인 할 수 있음</li>
+        <li>계정선택후 알맞은 비밀번호를 입력하면 해당 계정으로 오라클 접속수행, 계정테이블을 확인 할 수 있음</li>
         <table>
           <tr>
-            <td colspan="2">서브권 결정 화면</td>
+            <td colspan="2">로그인 후 계정테이블 창</td>
           </tr>
           <tr>
             <td>
-            <img src="https://blogfiles.pstatic.net/MjAxOTA1MDdfNzcg/MDAxNTU3MjAzMjM0MDEz.Deu40I5FTo9dZi1hK5EPrW8c68Q4ap5WUBqVIOnc8_4g.f9F-IvDcFoyBo9fXKeFmfwg8ADSMq-RPuqtuqBZ_zxkg.PNG.phh_92/serve_com.png?type=w2" width="250px"/> 
+            <img src="https://user-images.githubusercontent.com/47166170/57373449-546d5400-71d3-11e9-8189-45c62968c1ad.PNG" width="250px"/> 
             </td>
             <td>
-              <img src="https://blogfiles.pstatic.net/MjAxOTA1MDdfMjgw/MDAxNTU3MjAzMjM0MjMx.at0j4EGPCXbpzIbuMMjNDT1v23JQO4mBbyhLIudW-AUg.kTPOxtkQScOToO8feXLyrrRbbCoNn-AkOaxf2FrbrC4g.PNG.phh_92/serve_player.png?type=w2" width="250px"/>
+              <img src="https://user-images.githubusercontent.com/47166170/57373571-aa41fc00-71d3-11e9-8c49-026491756efa.PNG" width="250px"/>
             </td>
           </tr>
         </table>
-        <li>이 후에는 setTimeOut() Method 를 통해 div 을 제거 및 게임 시작/li>
-        <li>Puck 의 위치는 서브권에 따라 다르게 설정됨</li>
+        <li>이 후 원하는 테이블을 누르면 preparestatement에 select문을 담아 쿼리 수행 + 메타데이터를 담아 resultset.next()를 통해/li>
+        <li>데이터를 끌고옴, 이후 Swing에 정의한 테이블 모델에 덮어 씌워서 보여줌</li>
       </ul>
     </td>
   </tr>
