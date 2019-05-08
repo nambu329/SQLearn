@@ -19,10 +19,6 @@
     </td>
   </tr>
   <tr>
-    <td>UI</td>
-    <td>상세 설명</td>
-  </tr>
-  <tr>
     <td>
     <img src="https://user-images.githubusercontent.com/47166170/57374572-28070700-71d6-11e9-8335-12cf55df9a4f.PNG" width="250px"/>
     </td>
