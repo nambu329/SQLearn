@@ -10,9 +10,20 @@
     <td>UI</td>
     <td>상세 설명</td>
   </tr>
+    <tr>
+    <td>
+    
+    </td>
+    <td>
+      ▶ 프로그램 구조<br>
+      <ul>
+        <li>JDBC를 이용해 Connection을 얻어온 후 파일의 로그인정보를 눌러 오라클 계정접속 확인</li>
+      </ul>
+    </td>
+  </tr>
   <tr>
     <td>
-    <img src="https://user-images.githubusercontent.com/47166170/57373230-d90ba280-71d2-11e9-8a9a-80f43b0d92a5.PNG" width="250px"/>
+    <img src="https://user-images.githubusercontent.com/47166170/57374441-de1e2100-71d5-11e9-9029-94d19d514b3f.PNG" width="250px"/>
     </td>
     <td>
       ▶ 프로그램 최초 실행 메인화면<br>
