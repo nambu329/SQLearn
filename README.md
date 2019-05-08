@@ -51,7 +51,7 @@
             </td>
           </tr>
         </table>
-        <li>이 후 원하는 테이블을 누르면 preparestatement에 select문을 담아 쿼리 수행 + 메타데이터를 담아 resultset.next()를 통해/li>
+        <li>이 후 원하는 테이블을 누르면 preparestatement에 select문을 담아 쿼리 수행 + 메타데이터를 담아 resultset.next()를 통해</li>
         <li>데이터를 끌고옴, 이후 Swing에 정의한 테이블 모델에 덮어 씌워서 보여줌, 계정접속 후에는 쿼리문 입력후 수행도 가능.(단축키 ctrl+enter)</li>
       </ul>
     </td>
