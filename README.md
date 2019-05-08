@@ -65,7 +65,7 @@
       <ul>
         <li>단축키를 지정해 명령 수행 가능.</li>
         <li>그중 Ctrl+S로 엑셀파일로 빼내 원하는 위치에 저장이 가능(엑셀저장은 poi.jar 라이브러리를 가져와서 수행).</li>
-        <li>HSSFWorkbook 객체 생성후 ResultSetMetaData를 통해 DB테이블의 컬럼조사, 자료들을 가져온다.</li>
+        <li>HSSFWorkbook 객체로 엑셀파일 생성후 ResultSetMetaData를 통해 DB테이블의 컬럼조사, 자료들을 가져온다.</li>
         <li>ResultSet객체로 DB의 줄 조사 이후 각 줄마다 Swing에서 사전에 정의한 테이블에 덮어 씌움</li>
         <li>이후 저장경로를 생성하여 File객체를 만들어 해당파일을 엑셀로 저장</li>
         <table>
