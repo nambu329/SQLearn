@@ -61,6 +61,16 @@
           </tr>
         </table>
         <li>이 후 원하는 테이블을 누르면 preparestatement에 select문을 담아 쿼리 수행 + 메타데이터를 담아 resultset.next()를 통해 데이터를 끌고옴</li>
+        <table>
+          <tr>
+            <td colspan="1">오라클 계정 내의 테이블 자료를 출력</td>
+          </tr>
+          <tr>
+            <td>
+            <img src="https://user-images.githubusercontent.com/47166170/58018811-d1d38580-7b3e-11e9-86da-e2cf339fc827.PNG" width="400px"/> 
+            </td>
+          </tr>
+        </table>
         <li>이후 Swing에 정의한 테이블 모델에 덮어 씌워서 보여줌, 계정접속 후에는 쿼리문 입력후 수행도 가능.(단축키 ctrl+enter)</li>
       </ul>
     </td>
