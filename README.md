@@ -26,6 +26,7 @@
       ▶ 프로그램 최초 실행 메인화면<br>
       <ul>
         <li>JDBC를 이용해 Connection을 얻어온 후 파일의 로그인정보를 눌러 오라클 계정접속 확인</li>
+        <table>
           <tr>
             <td colspan="1">오라클 접속을 담당하는 ConnectionManager</td>
           </tr>
@@ -34,6 +35,7 @@
             <img src="https://user-images.githubusercontent.com/47166170/58018809-d0a25880-7b3e-11e9-9805-0020d06eae64.PNG" width="400px"/> 
             </td>
   </tr>
+        </table>
       </ul>
     </td>
   <tr>
