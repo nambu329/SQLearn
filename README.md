@@ -72,6 +72,16 @@
           </tr>
         </table>
         <li>이후 Swing에 정의한 테이블 모델에 덮어 씌워서 보여줌, 계정접속 후에는 쿼리문 입력후 수행도 가능.(단축키 ctrl+enter)</li>
+        <table>
+          <tr>
+            <td colspan="1">쿼리문 수행</td>
+          </tr>
+          <tr>
+            <td>
+            <img src="https://user-images.githubusercontent.com/47166170/58018817-d304b280-7b3e-11e9-81f8-bda5122a3848.PNG" width="400px"/> 
+            </td>
+          </tr>
+        </table>
       </ul>
     </td>
   </tr>
