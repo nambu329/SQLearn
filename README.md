@@ -3,6 +3,7 @@
   <li>개발기간 : 2019-02-17 ~ 2019-02-24</li>
   <li>인원 : 1명</li>
   <li>개발환경 : JavaSE, Oracle</li>
+  <li>개발목적 : 오라클의 편리한 접속 및 계정과 테이블 간편조회, CRUD의 흐름에 대해 알아봄</li>
 </ul>
 
 <table style="text-align:center;">
